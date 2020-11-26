@@ -1,15 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Jumbotron, Button } from "react-bootstrap";
+//import { Jumbotron, Button, Container } from "react-bootstrap";
+import "./Hero.css";
 
 function Hero() {
   return (
-    <Jumbotron>
-      <h1>Hello, Im Noe</h1>
-      <p>I am a web developer</p>
-      <p>
-        <Button variant="primary">about me</Button>
-      </p>
-    </Jumbotron>
+    <div className="jumbotron jumbotron-fluid">
+      <div className="container">
+        <h1 className="display-4">Hi</h1>
+        <p>
+			Im web dev 
+        </p>
+      </div>
+    </div>
+
   );
 }
 
