@@ -1,5 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 import { Card, CardDeck, Navbar, Form, Button } from "react-bootstrap";
 import React from "react";
@@ -28,17 +36,23 @@ function Footer() {
             <Card.Title>Social</Card.Title>
             <Card.Text>
               <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Facebook</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                  <FontAwesomeIcon icon={faFacebook} size="2x" />
+                </Navbar.Brand>
+               /noemk2
               </Navbar>
               <br />
               <Navbar bg="dark" variant="dark">
-                <Navbar.Brand>Github</Navbar.Brand>
+                <Navbar.Brand>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
+                </Navbar.Brand>
+                /noemk2
               </Navbar>
               <br />
               <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="#home">
                   {" "}
-                  Instagram
+                  <FontAwesomeIcon icon={faInstagram} size="2x" />
                   {/*
 <img
                     src="/logo.svg"
@@ -50,6 +64,7 @@ function Footer() {
 
 					*/}
                 </Navbar.Brand>
+                /noemk2
               </Navbar>
               <br />
               <Navbar bg="dark" variant="dark">
@@ -62,8 +77,9 @@ function Footer() {
                     className="d-inline-block align-top"
                   />
 					*/}
-                  Youtube
+                  <FontAwesomeIcon icon={faYoutube} size="2x" />
                 </Navbar.Brand>
+                /noemk2
               </Navbar>
               {/**/}
             </Card.Text>
@@ -85,7 +101,7 @@ function Footer() {
                 </Form.Group>
 
                 <Form.Group controlId="exampleForm.ControlTextarea1">
-					<Form.Label>say hello:</Form.Label>
+                  <Form.Label>say hello:</Form.Label>
                   <Form.Control as="textarea" rows={3} />
                 </Form.Group>
                 <Form.Group controlId="formBasicCheckbox">
