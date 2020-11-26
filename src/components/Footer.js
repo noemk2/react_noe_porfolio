@@ -119,12 +119,12 @@ function Footer() {
       <div className="container-footer">
         <div className="footer">
           <div className="copyright">
-            R 2020 Todos los derechos reservados <a href="">noemk2</a>
+            R 2020 Todos los derechos reservados <a href="github.com/noemk2">noemk2</a>
           </div>
           <div className="information">
-            <a href="">Informacion compania </a> |
-            <a href=""> Privacion y Politica </a> |
-            <a href=""> Terminos y Condiciones</a>
+            <a href="#home">Informacion compania </a> |
+            <a href="#home"> Privacion y Politica </a> |
+            <a href="#home"> Terminos y Condiciones</a>
           </div>
         </div>
       </div>
