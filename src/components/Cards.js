@@ -1,5 +1,5 @@
 import { Card, Button } from "react-bootstrap";
-//import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 function Cards() {
   return (
     <section className="projects">

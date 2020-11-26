@@ -2,8 +2,18 @@
   color: white;
   /*background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");*/
   background: black;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  border-radius: 0;
+}
+.Card {
+  padding-top: 19%;
+  padding-left: 19%;
+  /*display: block;*/
+  /*border-radius: none;*/
 }
