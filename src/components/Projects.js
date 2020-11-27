@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Projects.css";
-import { Container, Card, CardDeck } from "react-bootstrap";
+import {  Card, CardDeck } from "react-bootstrap";
 
 function Projects() {
   return (
