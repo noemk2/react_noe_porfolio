@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Projects.css";
-import {  Card, CardDeck } from "react-bootstrap";
+import { Container,  Card, CardDeck } from "react-bootstrap";
 
 function Projects() {
   return (
-      <div className="projects">
+	  <Container>
         <h2 className="display-4 text-center">Projects</h2>
 
         <CardDeck>
@@ -58,7 +58,7 @@ function Projects() {
           <Cards className="card" />
         </div>
 */}
-      </div>
+	  </Container>
   );
 }
 
