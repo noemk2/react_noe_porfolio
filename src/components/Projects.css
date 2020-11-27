@@ -30,7 +30,9 @@ h2 {
 /*justify-content: center;*/
 /*align-items: center;*/
 /*}*/
-
+.one-card {
+  cursor: pointer;
+}
 @media screen and (max-width: 731px) {
   .projects {
     height: 100%;

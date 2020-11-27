@@ -35,21 +35,21 @@ function Footer() {
             <Card.Title>Social</Card.Title>
             <Card.Text>
               <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="https://www.facebook.com/mkm21234">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </Navbar.Brand>
                /noemk2
               </Navbar>
               <br />
               <Navbar bg="dark" variant="dark">
-                <Navbar.Brand>
+                <Navbar.Brand href="https://github.com/noemk2">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </Navbar.Brand>
                 /noemk2
               </Navbar>
               <br />
               <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="https://www.instagram.com/noemk21">
                   {" "}
                   <FontAwesomeIcon icon={faInstagram} size="2x" />
                   {/*
@@ -67,7 +67,7 @@ function Footer() {
               </Navbar>
               <br />
               <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="https://www.youtube.com/channel/UCqgXF6_BO72MLE9mYwtbNkw">
                   {/*
 <img                   alt=""
                     src="/logo.svg"

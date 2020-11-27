@@ -6,16 +6,6 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="hero">
-      {/*
-
-      <div className="container">
-        <h1 className="display-4">
-          Hi, <br />
-          Im sofware developer
-        </h1>
-
-      </div>
-		*/}
       <Jumbotron className="Card">
         <h1 className="display-4">Hi, Im Noe</h1>
         <p>
