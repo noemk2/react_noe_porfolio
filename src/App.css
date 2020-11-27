@@ -37,8 +37,10 @@
 /*}*/
 /*}*/
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  /*overflow-y: scroll;*/
+  overflow-x: hidden;
 }

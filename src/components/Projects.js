@@ -4,7 +4,6 @@ import { Container, Card, CardDeck } from "react-bootstrap";
 
 function Projects() {
   return (
-    <Container>
       <div className="projects">
         <h2 className="display-4 text-center">Projects</h2>
 
@@ -60,7 +59,6 @@ function Projects() {
         </div>
 */}
       </div>
-    </Container>
   );
 }
 
