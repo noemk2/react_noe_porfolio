@@ -7,7 +7,7 @@ function Projects() {
 	  <Container className="projects">
         <h2 className="display-4 text-center">Projects</h2>
 
-        <CardDeck>
+        <CardDeck className="card-deck">
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
